@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Prince Praveen | DevOps Professional
+#title: Prince Praveen | DevOps Professional
 #email: 
 #description: I'm a seasoned DevOps Professional with more than a decade of expertise in DevOps best practices.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.princepraveen.co.in" # the base hostname & protocol for your site, e.g. http://example.com
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://www.princepraveen.co.in" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  princechennai
+#github_username:  princechennai
 
 # Build settings
 theme: minima
