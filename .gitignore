@@ -25,3 +25,73 @@ package-lock.json
 # Misc
 _sass/vendors
 assets/js/dist
+
+# =========================
+# Jekyll / Site build
+# =========================
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# =========================
+# Ruby / Bundler
+# =========================
+.bundle/
+vendor/
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# =========================
+# Node (if used)
+# =========================
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+.cache/
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.tmp
+*.pid
+*.seed
+
+# =========================
+# Optional: Ignore local config override
+# =========================
+_config.local.yml
