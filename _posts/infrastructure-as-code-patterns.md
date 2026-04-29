@@ -1,8 +1,7 @@
 ---
 title: Infrastructure as Code Patterns
 description: Advanced Terraform patterns for enterprise-scale deployments
-icon: code
-order: 3
+date: 2026-04-29
 ---
 
 Dive into scalable Terraform patterns such as module composition, remote state isolation, environment promotion flows, drift detection, and governance gates.

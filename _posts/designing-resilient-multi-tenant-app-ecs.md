@@ -2,9 +2,7 @@
 
 title: "Designing a Resilient Multi-Tenant Platform on AWS ECS with Blue-Green Deployments"
 description: "Learn how to design a resilient multi-tenant architecture on AWS ECS using cell-based isolation and blue-green deployments to minimize blast radius and improve reliability."
-tags: ["AWS", "ECS", "DevOps", "SRE", "Multi-Tenant", "Blue-Green Deployment", "Platform Engineering"]
-published: true
-order: 6
+date: 2026-04-29
 --------
 
 # Designing a Resilient Multi-Tenant Platform on AWS ECS with Blue-Green Deployments

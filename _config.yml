@@ -14,8 +14,7 @@ author:
   name: Prince Praveen
 
 # 🎨 Theme (Chirpy uses this)
-theme: jekyll-theme-chirpy
-theme_mode: dark
+theme: minima
 
 # 🔗 Social (optional but useful)
 github:
@@ -23,32 +22,3 @@ github:
 
 # 📄 Pagination (default works fine)
 paginate: 10
-
-exclude:
-  - "*.gem"
-  - "*.gemspec"
-  - docs
-  - tools
-  - README.md
-  - LICENSE
-  - purgecss.js
-  - "*.config.js"
-  - "package*.json"
-
-avatar: /assets/img/avatar.jpg   # add your photo here
-social:
-  name: Prince Praveen
-  links:
-    - https://github.com/princechennai
-    - https://linkedin.com/in/princecrown
-
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: category
-    tag: tag
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/

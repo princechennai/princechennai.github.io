@@ -1,4 +1,5 @@
 ---
 layout: home
-# Index page
 ---
+
+Welcome to my blog.
