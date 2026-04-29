@@ -15,6 +15,7 @@ author:
 
 # 🎨 Theme (Chirpy uses this)
 theme: jekyll-theme-chirpy
+theme_mode: dark
 
 # 🔗 Social (optional but useful)
 github:
@@ -33,3 +34,10 @@ exclude:
   - purgecss.js
   - "*.config.js"
   - "package*.json"
+
+avatar: /assets/img/avatar.jpg   # add your photo here
+social:
+  name: Prince Praveen
+  links:
+    - https://github.com/princechennai
+    - https://linkedin.com/in/princecrown
