@@ -5,19 +5,7 @@ date: 2026-04-29
 author: Prince Praveen
 ---
 
-<!--
-IMPORTANT: To render Mermaid diagrams in GitHub Pages (Jekyll),
-add this to your _layouts/default.html before </body>:
-
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>
-  mermaid.initialize({ startOnLoad: true });
-</script>
--->
-
-# Designing a Resilient Multi-Tenant Platform on AWS ECS with Blue-Green Deployments
-
-Modern SaaS platforms operate in a **multi-tenant model**, where a single system serves many customers.
+# Modern SaaS platforms operate in a **multi-tenant model**, where a single system serves many customers.
 
 > **How do you prevent one failure from affecting everyone?**
 
