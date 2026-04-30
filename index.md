@@ -62,9 +62,8 @@ title: Prince Praveen | DevOps Engineer
 
 <div class="hero">
 
-# 👋 Hi, I'm Prince Praveen
-
-### DevOps Engineer | SRE | Platform Builder
+<h1>👋 Hi, I'm Prince Praveen</h1>
+<h3>DevOps Engineer | SRE | Platform Builder</h3>
 
 <p>
 I build scalable, reliable cloud systems with a strong focus on automation, observability, and developer experience.
@@ -82,36 +81,28 @@ I build scalable, reliable cloud systems with a strong focus on automation, obse
 
 <div class="section">
 
-## 🚀 What I Do
+<h2>🚀 What I Do</h2>
 
 <div class="grid">
 
 <div class="card">
-
-### ⚙️ Infrastructure as Code
-Designing reusable Terraform modules, multi-environment deployments, and governance-driven infrastructure.
-
+<h3>⚙️ Infrastructure as Code</h3>
+<p>Designing reusable Terraform modules, multi-environment deployments, and governance-driven infrastructure.</p>
 </div>
 
 <div class="card">
-
-### ☸️ Kubernetes & Containers
-Building scalable workloads on EKS/ECS with strong operational patterns and reliability.
-
+<h3>☸️ Kubernetes & Containers</h3>
+<p>Building scalable workloads on EKS/ECS with strong operational patterns and reliability.</p>
 </div>
 
 <div class="card">
-
-### 🔁 CI/CD & Platform Engineering
-Creating self-service developer platforms using GitHub Actions and GitOps workflows.
-
+<h3>🔁 CI/CD & Platform Engineering</h3>
+<p>Creating self-service developer platforms using GitHub Actions and GitOps workflows.</p>
 </div>
 
 <div class="card">
-
-### 📊 Observability & SRE
-Defining SLIs/SLOs, improving system reliability, and reducing operational toil.
-
+<h3>📊 Observability & SRE</h3>
+<p>Defining SLIs/SLOs, improving system reliability, and reducing operational toil.</p>
 </div>
 
 </div>
@@ -122,35 +113,26 @@ Defining SLIs/SLOs, improving system reliability, and reducing operational toil.
 
 <div class="section">
 
-## 📂 Featured Work
+<h2>📂 Featured Work</h2>
 
 <div class="grid">
 
 <div class="card">
-
-### 🧩 Infrastructure as Code Patterns
-Enterprise Terraform patterns: modules, environments, and scaling strategies.
-
-👉 [Read Article](./_posts/infrastructure-as-code-patterns.md)
-
+<h3>🧩 Infrastructure as Code Patterns</h3>
+<p>Enterprise Terraform patterns: modules, environments, and scaling strategies.</p>
+<p><a href="./_posts/infrastructure-as-code-patterns.md">👉 Read Article</a></p>
 </div>
 
 <div class="card">
-
-### 📊 SRE Metrics That Matter
-Understanding SLIs, SLOs, and how to measure reliability effectively.
-
-👉 [Read Article](./_posts/sre-metrics-that-matter.md)
-
+<h3>📊 SRE Metrics That Matter</h3>
+<p>Understanding SLIs, SLOs, and how to measure reliability effectively.</p>
+<p><a href="./_posts/sre-metrics-that-matter.md">👉 Read Article</a></p>
 </div>
 
 <div class="card">
-
-### 🏗️ Multi-Tenant ECS Architecture
-Designing resilient multi-tenant systems with AWS ECS.
-
-👉 [Read Article](./_posts/designing-resilient-multi-tenant-app-ecs.md)
-
+<h3>🏗️ Multi-Tenant ECS Architecture</h3>
+<p>Designing resilient multi-tenant systems with AWS ECS.</p>
+<p><a href="./_posts/designing-resilient-multi-tenant-app-ecs.md">👉 Read Article</a></p>
 </div>
 
 </div>
@@ -161,12 +143,14 @@ Designing resilient multi-tenant systems with AWS ECS.
 
 <div class="section">
 
-## ✍️ Latest Posts
+<h2>✍️ Latest Posts</h2>
 
-- [Cloud Security Best Practices](./_posts/2026-04-29-cloud-security-best-practices.md)  
-- [Linux Kernel Performance Tuning](./_posts/linux-kernel-performance-tuning.md)  
-- [Infrastructure as Code Patterns](./_posts/infrastructure-as-code-patterns.md)  
-- [SRE Metrics That Matter](./_posts/sre-metrics-that-matter.md)  
+<ul>
+<li><a href="./_posts/2026-04-29-cloud-security-best-practices.md">Cloud Security Best Practices</a></li>
+<li><a href="./_posts/linux-kernel-performance-tuning.md">Linux Kernel Performance Tuning</a></li>
+<li><a href="./_posts/infrastructure-as-code-patterns.md">Infrastructure as Code Patterns</a></li>
+<li><a href="./_posts/sre-metrics-that-matter.md">SRE Metrics That Matter</a></li>
+</ul>
 
 </div>
 
@@ -174,12 +158,14 @@ Designing resilient multi-tenant systems with AWS ECS.
 
 <div class="section">
 
-## 📈 Philosophy
+<h2>📈 Philosophy</h2>
 
-- Build platforms, not just pipelines  
-- Automate everything repeatable  
-- Design for failure from day one  
-- Make systems observable and predictable  
+<ul>
+<li>Build platforms, not just pipelines</li>
+<li>Automate everything repeatable</li>
+<li>Design for failure from day one</li>
+<li>Make systems observable and predictable</li>
+</ul>
 
 </div>
 
@@ -187,7 +173,7 @@ Designing resilient multi-tenant systems with AWS ECS.
 
 <div class="section" style="text-align:center;">
 
-## 📫 Let's Connect
+<h2>📫 Let's Connect</h2>
 
 <p>
 <a href="https://github.com/princechennai" class="btn-primary">GitHub</a>
@@ -197,9 +183,3 @@ Designing resilient multi-tenant systems with AWS ECS.
 </div>
 
 ---
-
-<div class="footer">
-
-Built with GitHub Pages • Designed for simplicity & clarity
-
-</div>
