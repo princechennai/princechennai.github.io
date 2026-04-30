@@ -146,10 +146,12 @@ I build scalable, reliable cloud systems with a strong focus on automation, obse
 <h2>✍️ Latest Posts</h2>
 
 <ul>
-<li><a href="./_posts/2026-04-29-cloud-security-best-practices.md">Cloud Security Best Practices</a></li>
-<li><a href="./_posts/linux-kernel-performance-tuning.md">Linux Kernel Performance Tuning</a></li>
-<li><a href="./_posts/infrastructure-as-code-patterns.md">Infrastructure as Code Patterns</a></li>
-<li><a href="./_posts/sre-metrics-that-matter.md">SRE Metrics That Matter</a></li>
+{% for post in site.posts limit:5 %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <small> — {{ post.date | date: "%b %d, %Y" }}</small>
+  </li>
+{% endfor %}
 </ul>
 
 </div>
