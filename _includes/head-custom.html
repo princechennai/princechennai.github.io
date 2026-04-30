@@ -1,24 +1,28 @@
-<!-- Mermaid -->
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("load", function () {
   mermaid.initialize({
-    startOnLoad: false,  // IMPORTANT: we will trigger manually
+    startOnLoad: false,
     securityLevel: "loose"
   });
 
-  document.querySelectorAll("code.language-mermaid").forEach((block, i) => {
-    const parent = block.parentElement;
-    const graphDefinition = block.textContent;
+  const blocks = document.querySelectorAll("code.language-mermaid");
 
-    const newDiv = document.createElement("div");
-    newDiv.className = "mermaid";
-    newDiv.innerHTML = graphDefinition;
+  blocks.forEach((block) => {
+    const pre = block.parentElement;
+    const code = block.textContent;
 
-    parent.replaceWith(newDiv);
+    const container = document.createElement("div");
+    container.className = "mermaid";
+    container.textContent = code;
+
+    pre.replaceWith(container);
   });
 
-  mermaid.init(undefined, document.querySelectorAll(".mermaid"));
+  // 🔥 THIS is the key difference
+  mermaid.run({
+    querySelector: ".mermaid"
+  });
 });
 </script>
