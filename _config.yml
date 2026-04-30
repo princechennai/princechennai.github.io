@@ -22,3 +22,4 @@ github:
 
 # 📄 Pagination (default works fine)
 paginate: 10
+markdown: kramdown
