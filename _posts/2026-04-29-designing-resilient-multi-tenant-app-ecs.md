@@ -5,7 +5,7 @@ date: 2026-04-29
 author: Prince Praveen
 ---
 
-# Modern SaaS platforms operate in a **multi-tenant model**, where a single system serves many customers.
+## Modern SaaS platforms operate in a **multi-tenant model**, where a single system serves many customers.
 
 > **How do you prevent one failure from affecting everyone?**
 
