@@ -1,9 +1,19 @@
 ---
-
 title: "Designing a Resilient Multi-Tenant Platform on AWS ECS with Blue-Green Deployments"
-description: "Learn how to design a resilient multi-tenant architecture on AWS ECS using cell-based isolation and blue-green deployments to minimize blast radius and improve reliability."
+description: "Learn how to design a resilient multi-tenant architecture on AWS ECS using cell-based isolation and blue-green deployments."
 date: 2026-04-29
---------
+author: Prince Praveen
+---
+
+<!--
+IMPORTANT: To render Mermaid diagrams in GitHub Pages (Jekyll),
+add this to your _layouts/default.html before </body>:
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: true });
+</script>
+-->
 
 # Designing a Resilient Multi-Tenant Platform on AWS ECS with Blue-Green Deployments
 
@@ -13,10 +23,10 @@ Modern SaaS platforms operate in a **multi-tenant model**, where a single system
 
 This guide walks through a **resilient architecture on AWS ECS**, combining:
 
-* Cell-based multi-tenancy
-* Blue-green deployments
-* Tenant-aware routing
-* Observability best practices
+- Cell-based multi-tenancy  
+- Blue-green deployments  
+- Tenant-aware routing  
+- Observability best practices  
 
 ---
 
@@ -24,10 +34,10 @@ This guide walks through a **resilient architecture on AWS ECS**, combining:
 
 Typical issues in multi-tenant ECS systems:
 
-* A bad deployment impacts all tenants
-* Noisy neighbors degrade performance
-* Slow or risky rollbacks
-* Lack of tenant-level observability
+- A bad deployment impacts all tenants  
+- Noisy neighbors degrade performance  
+- Slow or risky rollbacks  
+- Lack of tenant-level observability  
 
 👉 The real goal is not scaling—it’s **failure isolation**.
 
@@ -92,9 +102,9 @@ flowchart LR
 
 ### Why Cell-Based Architecture?
 
-* Limits blast radius
-* Prevents noisy neighbor impact
-* Enables safe, incremental deployments
+- Limits blast radius  
+- Prevents noisy neighbor impact  
+- Enables safe, incremental deployments  
 
 Think of each cell as a mini independent platform.
 
@@ -131,7 +141,6 @@ sequenceDiagram
     ALB->>Blue: 90%
 
     ALB->>Green: Shift 50%
-
     ALB->>Green: Shift 100%
 ```
 
@@ -276,7 +285,7 @@ flowchart TD
     Metrics --> Dashboard
 ```
 
-### Tenant-Aware Observability Flow
+### Tenant-Aware Observability
 
 ```mermaid
 flowchart LR
@@ -337,8 +346,22 @@ quadrantChart
 
 ## ✅ Key Takeaways
 
-* Avoid single shared services for all tenants
-* Adopt cell-based architecture early
-* Use blue-green deployments with traffic shifting
-* Roll out changes per cell, not globally
-* Invest in tenant-level observability
+- Avoid single shared services for all tenants  
+- Adopt cell-based architecture early  
+- Use blue-green deployments with traffic shifting  
+- Roll out changes per cell, not globally  
+- Invest in tenant-level observability  
+
+---
+
+## 🚀 Conclusion
+
+Resilience in multi-tenant systems is not accidental—it is designed.
+
+By combining **cell-based isolation + blue-green deployments**, you:
+
+- Reduce blast radius  
+- Improve deployment safety  
+- Gain operational confidence  
+
+This is how modern SaaS platforms scale **without scaling risk**.

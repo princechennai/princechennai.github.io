@@ -139,17 +139,16 @@ sudo dnf install figlet toilet
 ## 🚀 Example Usage
 
 ```bash
-figlet DevOps
+figlet Jesus
 ```
 
 Try styles:
 
 ```bash
-toilet -f mono12 -F metal DevOps
+toilet -f mono12 -F metal Jesus
 ```
 
 Example output:
-
 ```text
      _           
     | | ___  ___ _   _ ___  
