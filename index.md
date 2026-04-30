@@ -73,6 +73,7 @@ I build scalable, reliable cloud systems with a strong focus on automation, obse
   <a href="./_posts/infrastructure-as-code-patterns.md" class="btn-primary">📖 View My Work</a>
   <a href="https://github.com/princechennai" class="btn-secondary">💻 GitHub</a>
   <a href="https://linkedin.com/in/princecrown" class="btn-secondary">🔗 LinkedIn</a>
+  <a href="https://www.princepraveen.co.in" class="btn-secondary">💼 Portfolio</a>
 </div>
 
 </div>
@@ -111,7 +112,7 @@ I build scalable, reliable cloud systems with a strong focus on automation, obse
 
 ---
 
-<div class="section">
+<!-- <div class="section">
 
 <h2>📂 Featured Work</h2>
 
@@ -137,7 +138,7 @@ I build scalable, reliable cloud systems with a strong focus on automation, obse
 
 </div>
 
-</div>
+</div> -->
 
 ---
 
