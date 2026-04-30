@@ -71,9 +71,9 @@ I build scalable, reliable cloud systems with a strong focus on automation, obse
 
 <div class="hero-buttons">
   <a href="./_posts/infrastructure-as-code-patterns.md" class="btn-primary">📖 View My Work</a>
-  <a href="https://github.com/princechennai" class="btn-secondary">💻 GitHub</a>
-  <a href="https://linkedin.com/in/princecrown" class="btn-secondary">🔗 LinkedIn</a>
-  <a href="https://www.princepraveen.co.in" class="btn-secondary">💼 Portfolio</a>
+  <a href="https://github.com/princechennai" target="_blank" class="btn-secondary">💻 GitHub</a>
+  <a href="https://linkedin.com/in/princecrown" target="_blank" class="btn-secondary">🔗 LinkedIn</a>
+  <a href="https://www.princepraveen.co.in" target="_blank" class="btn-secondary">💼 Portfolio</a>
 </div>
 
 </div>
@@ -179,8 +179,8 @@ I build scalable, reliable cloud systems with a strong focus on automation, obse
 <h2>📫 Let's Connect</h2>
 
 <p>
-<a href="https://github.com/princechennai" class="btn-primary">GitHub</a>
-<a href="https://linkedin.com/in/princecrown" class="btn-secondary">LinkedIn</a>
+<a href="https://github.com/princechennai" target="_blank" class="btn-primary">GitHub</a>
+<a href="https://linkedin.com/in/princecrown" target="_blank" class="btn-secondary">LinkedIn</a>
 </p>
 
 </div>
